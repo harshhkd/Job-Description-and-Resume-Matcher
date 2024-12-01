@@ -1,0 +1,79 @@
+
+ /* General Body Styling */
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Centered Container */
+.container {
+    margin-top: 50px;
+}
+
+/* Card Styling */
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Header Styling */
+.card-header {
+    background-color: #c0392b;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Input Field Styling */
+
+textarea,
+input[type="file"] {
+    background-color: #2e2e2e; /* Dark input fields */
+    color: #ffffff; /* White text for inputs */
+    border: 1px solid #555; /* Border for input fields */
+}
+
+/* Button Styling */
+.btn-danger {
+    background-color: #c0392b;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #e74c3c; /* Slightly lighter red on hover */
+}
+
+/* Table Styling */
+.table-dark {
+    color: #ffffff; /* White text */
+    background-color: #1e1e1e; /* Table dark background */
+}
+
+.table-dark thead th {
+    color: #ffffff;
+    background-color: #333333; /* Slightly lighter for contrast */
+}
+
+.table-dark tbody tr td {
+    color: #ffffff;
+    background-color: #2e2e2e; /* Rows with a different dark shade */
+}
+
+/* Progress Bar Styling */
+.progress {
+    background-color: #333333; /* Dark progress bar background */
+    height: 20px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background-color: #c0392b; /* Red progress bar */
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff; /* White text inside the progress bar */
+    overflow:none;
+}
