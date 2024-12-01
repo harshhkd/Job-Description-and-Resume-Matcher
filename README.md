@@ -50,3 +50,5 @@ The **Resume Matcher Application** uses advanced text-processing techniques and 
 2. Upload one or more resumes.
 3. Enter the job description.
 4. Click Match to see the top 5 resumes ranked by relevance.
+
+# First download all the necessay pacakge like flask, numpy, scikit learn and many more 
